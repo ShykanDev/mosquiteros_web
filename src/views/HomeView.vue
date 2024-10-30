@@ -85,68 +85,7 @@
             </carousel>
           </div>
           <!-- content promotion -->
-          <section class="flex flex-col items-center text-center font-poppins">
-            <h2 class="px-2 mt-5 text-2xl font-medium text-center font-poppins text-sky-800 sm:px-0">Beneficios</h2>
-            <div data-aos="fade-up" class="mt-4">
-              <div>
-                <h3 class="px-2 text-xl font-medium text-center font-poppins text-slate-800 sm:px-0">Protección eficaz
-                </h3>
-                <v-icon name="fa-shield-alt" scale="1.5" class="text-orange-500" />
-              </div>
-              <p>Un mosquitero actúa como una barrera física que impide la entrada de insectos voladores, como mosquitos
-                y
-                otros
-                bichos. Esto no solo protege tu piel de picaduras incómodas, sino que también reduce el riesgo de
-                enfermedades
-                transmitidas por insectos. Al crear un ambiente libre de plagas, podrás relajarte y disfrutar de un
-                sueño
-                reparador,
-                sin las molestias que generan los zumbidos nocturnos.</p>
-            </div>
-            <div data-aos="fade-up" class="mt-4">
-              <div>
-                <h3 class="mt-3 text-xl font-medium text-center font-poppins text-slate-800">Fácil instalación</h3>
-                <v-icon name="ri-hotel-bed-fill" scale="1.5" class="text-sky-500" />
-              </div>
-              <p>La mayoría de los mosquiteros están diseñados para ser fáciles de instalar y quitar. Con sistemas de
-                sujeción
-                simples, puedes colocarlos en minutos, sin necesidad de herramientas o complicaciones. Esto significa
-                que
-                puedes
-                disfrutar de la protección en casa o llevar el mosquitero contigo cuando viajes, asegurándote de que
-                siempre tendrás
-                un refugio seguro y cómodo, sin importar dónde te encuentres.</p>
-            </div>
-            <div data-aos="fade-up" class="mt-4">
-              <div>
-                <h3 class="mt-3 text-xl font-medium text-center font-poppins text-slate-800">Versatilidad</h3>
-                <v-icon name="gi-camping-tent" scale="1.5" class="text-amber-900" />
-              </div>
-              <p>Los mosquiteros son increíblemente versátiles y se adaptan a diferentes estilos de vida. Ya sea que
-                estés
-                en casa,
-                de camping, o en una cabaña, un mosquitero se puede usar en cualquier lugar. Además, vienen en diversas
-                formas y
-                tamaños, lo que te permite elegir el que mejor se ajuste a tus necesidades. Esto asegura que siempre
-                tendrás una
-                solución efectiva para disfrutar de un descanso libre de insectos.</p>
-            </div>
-            <div data-aos="fade-up" class="mt-4">
-              <div>
-                <h3 class="mt-3 text-xl font-medium text-center font-poppins text-slate-800">Mejora del sueño</h3>
-                <v-icon name="gi-night-sleep" scale="1.5" class="text-sky-800" />
-              </div>
-              <p>Al eliminar las distracciones causadas por los insectos, un mosquitero contribuye a un entorno de sueño
-                más
-                tranquilo. Esto puede resultar en un descanso más profundo y reparador, lo cual es esencial para
-                mantener
-                altos
-                niveles de energía y concentración durante el día. Un buen sueño no solo mejora tu bienestar físico,
-                sino
-                que
-                también favorece tu salud mental, permitiéndote afrontar cada día con más vitalidad y positividad.</p>
-            </div>
-          </section>
+          
           <!-- baby product -->
           <section data-aos="fade-up-right" class="mt-5">
             <h2 class="mt-3 text-3xl text-center font-poppins">Todo bien, pero... ¿Y mis hijos?</h2>
@@ -172,20 +111,44 @@
                   <pagination />
                 </template>
               </carousel>
-              <h3  class="px-2 mt-5 text-2xl font-medium text-center font-poppins text-sky-800 sm:px-0">Beneficios</h3>
+              <h3  class="px-2 mt-5 text-2xl font-medium text-center font-poppins text-sky-800 sm:px-0">Obtendrás</h3>
               <ul class="px-6 mt-4 text-lg font-medium text-center font-poppins text-slate-800 sm:px-0">
                 <li data-aos="fade-right">✔ Protección total para el bebé, libre de picaduras y mosquitos</li>
                 <li data-aos="fade-right">✔ Diseño portátil y plegable, ideal para usar en casa o de viaje</li>
                 <li data-aos="fade-right">✔ Colchón cómodo y soporte seguro, proporcionando un descanso óptimo</li>
                 <li data-aos="fade-right">✔ Fácil de montar, sin herramientas adicionales</li>
-                <li data-aos="fade-right">✔ Acero grado A</li>
+                <li data-aos="fade-right">✔ Comodidad para tu pequeño, sin preocuparte por picaduras de mosquitos</li>
               </ul>
             </div>
           </section>
         </section>
+        <!-- construction materials -->
+        <section class="px-4 py-6 text-lg font-poppins text-slate-800">
+    <h3 class="mb-4 text-2xl text-center font-poppins">Calidad y Comodidad en Cada Detalle</h3>
+  
+    <ul class="px-6 mt-4 list-disc">
+        <li><strong>Materiales:</strong> Algodón suave, poliéster transpirable y malla de alta densidad de nylon para durabilidad y confort.</li>
+        <li><strong>Dimensiones:</strong> Extendido: 100x60x50 cm | Empacado: 50x50 cm | Peso: 300-400 g.</li>
+        <li><strong>Diseño Ergonómico:</strong> Estructura plegable y portátil, fácil de almacenar y transportar.</li>
+        <li><strong>Visibilidad y Ventilación:</strong> Malla transpirable que permite una visualización completa del bebé.</li>
+        <li><strong>Edad Recomendada:</strong> Bebés de 0 a 1 año.</li>
+    </ul>
+
+    <p class="mt-4"><strong>Colores Disponibles:</strong> Azul y Rosa</p>
+    
+    <h4 class="mt-6 text-xl">Beneficios Clave</h4>
+    <ul class="px-6 mt-2 list-disc">
+        <li>Ambiente seguro y protegido de insectos para un mejor descanso.</li>
+        <li>Portátil y ligero, ideal para el hogar y viajes.</li>
+        <li>Fácil de usar y sin instalación.</li>
+        <li>Garantía</li>
+        <li>Facturación</li>
+    </ul>
+</section>
+
         <!-- ending section -->
         <section class="mt-10">
-          <h3 class="text-2xl font-medium text-center font-poppins text-sky-900">En resumen...</h3>
+          <h3 class="text-4xl font-medium text-center font-poppins text-slate-700">En resumen...</h3>
 
           <p class="px-2 mt-3 text-lg text-center font-poppins text-slate-800 sm:px-0">
             Si deseas una solución práctica y confiable para protegerte de los mosquitos, nuestros productos ofrecen
@@ -201,7 +164,7 @@
           <div class="flex justify-center">
             <v-icon name="fa-street-view" scale="1.5" class="text-orange-800" />
           </div>
-          <p class="px-2 mt-3 text-lg text-left font-poppins text-slate-800 sm:px-0">
+          <p class="px-2 py-1 mx-3 mt-3 text-lg text-left shadow-md font-poppins text-slate-800 sm:px-0 bg-slate-50 rounded-3xl">
             El mosquitero para piso es perfecto para espacios abiertos o habitaciones sin marcos de cama específicos.
             Con su
             diseño amplio y fácil de colocar, este tipo de mosquitero te ofrece una barrera efectiva contra los
@@ -210,7 +173,7 @@
             buscan
             flexibilidad y rapidez en su instalación.
           </p>
-          <p class="px-2 mt-3 text-lg text-left font-poppins text-slate-800 sm:px-0">
+          <p class="px-2 py-1 mx-3 mt-3 text-lg text-left shadow-md font-poppins text-slate-800 sm:px-0 bg-slate-50 rounded-3xl">
             Además, este tipo de mosquitero es fácil de plegar y almacenar, lo que lo hace muy conveniente para viajeros
             o
             aquellos que buscan una opción de protección temporal. Su altura permite que te muevas cómodamente dentro de
@@ -222,7 +185,7 @@
           <div class="flex justify-center">
             <v-icon name="gi-bed" scale="1.5" class="text-cyan-800" />
           </div>
-          <p class="px-2 mt-3 text-lg text-left font-poppins text-slate-800 sm:px-0">
+          <p class="px-2 py-1 mx-3 mt-3 text-lg text-left shadow-md font-poppins text-slate-800 sm:px-0 bg-slate-50 rounded-3xl">
             Si prefieres una opción que se integre perfectamente a la estructura de tu cama, el mosquitero para cama es
             ideal.
             Este tipo de mosquitero se ajusta fácilmente alrededor de la cama, proporcionando una barrera completa que
@@ -231,7 +194,7 @@
             estética
             de la habitación.
           </p>
-          <p class="px-2 mt-3 text-lg text-left font-poppins text-slate-800 sm:px-0">
+          <p class="px-2 py-1 mx-3 mt-3 text-lg text-left shadow-md font-poppins text-slate-800 sm:px-0 bg-slate-50 rounded-3xl">
             Esta opción es ideal para personas que buscan una protección permanente o de uso frecuente en el hogar. Al
             estar
             fijado a la cama, el mosquitero se convierte en una solución estable y cómoda, ideal para garantizar un
@@ -239,11 +202,11 @@
             profundo sin interrupciones.
           </p>
 
-          <h3 class="mt-6 text-2xl text-center font-poppins text-sky-500">Mosquitero para cuna de bebé</h3>
+          <h3 class="mt-6 text-2xl text-center font-poppins text-emerald-700">Mosquitero para cuna de bebé</h3>
           <div class="flex justify-center">
-            <v-icon name="co-baby" scale="1.5" class="text-sky-500" />
+            <v-icon name="co-baby" scale="1.5" class="text-emerald-800" />
           </div>
-          <p class="px-2 mt-3 text-lg text-left font-poppins text-slate-800 sm:px-0">
+          <p class="px-2 py-1 mx-3 mt-3 text-lg text-left shadow-md font-poppins text-slate-800 sm:px-0 bg-slate-50 rounded-3xl">
             Para proteger a los más pequeños, contamos con un mosquitero para cuna especialmente diseñado para el
             descanso
             seguro del bebé. Este mosquitero cubre completamente la cuna, brindando una barrera efectiva contra
@@ -259,15 +222,11 @@
             <img class="md:w-[50%] lg:w-[40%]" src="@/assets/img/iso9001.svg" alt="">
           </div>
           <p class="px-4 mt-4 text-lg font-poppins text-slate-800 sm:px-0">
-            La certificación ISO 9001 es un estándar internacional que establece criterios para un sistema de gestión de
-            calidad. Esta norma asegura que nuestros productos y servicios cumplen con las expectativas de los clientes
-            y que
-            seguimos procesos eficientes y consistentes. Al tener la certificación ISO 9001, garantizamos que cada
-            producto que
-            ofrecemos ha pasado por un riguroso control de calidad, lo que respalda nuestra dedicación a la excelencia y
-            la
-            satisfacción del cliente.
-          </p>
+    <strong>Nuestros productos cuentan con la certificación ISO 9001.</strong> Esta certificación es un estándar internacional que establece criterios para un sistema de gestión de calidad, asegurando que nuestros productos y servicios cumplen con las expectativas de los clientes, y que seguimos procesos eficientes y consistentes. Al tener la certificación ISO 9001, garantizamos que <strong>cada producto que ofrecemos ha pasado por un riguroso control de calidad,</strong> respaldando nuestra dedicación a la excelencia y la satisfacción del cliente.
+    <br><br>
+    Así también, contamos con la certificación ISO 9000, que proporciona los principios esenciales para gestionar la calidad en cada etapa de nuestros procesos, consolidando aún más nuestro compromiso con altos estándares.
+</p>
+
         </section>
         <!-- sales section -->
         <section class="text-center my-9">
@@ -280,11 +239,17 @@
             sin mosquitos.
           </p>
           <p class="px-4 mt-4 text-lg font-poppins text-slate-800 sm:px-0">
-            Búscanos en nuestra página de Mercado Libre, donde tus compras son seguras y rápidas.
+            Búscanos en nuestra página de 
+            <a href="https://listado.mercadolibre.com.mx/_CustId_576364310?item_id=MLM3418418980&category_id=MLM429685&seller_id=576364310&client=recoview-selleritems&recos_listing=true#origin=vip&component=sellerData&typeSeller=classic" target="_blank">
+              <span class="px-3 font-medium text-yellow-500 rounded-xl bg-orange-50">
+                Mercado Libre
+              </span>
+            </a>
+            , donde tus compras son seguras y rápidas.
           </p>
           <p class="px-4 mt-4 text-lg font-poppins text-slate-800 sm:px-0">
             Nos enorgullece tener la
-            <strong>
+            <strong class="text-emerald-700">
               calificación de vendedor más alta en Mercado Libre
             </strong>, lo que refleja nuestra pasión por ofrecer productos excepcionales y un servicio al cliente
             sobresaliente.
@@ -308,21 +273,7 @@
           </div>
         </a>
         <!-- social media -->
-        <article class="mt-10">
-          <h3 class="text-2xl font-poppins text-slate-700">Siguenos en nuestras redes</h3>
-          <div class="flex justify-center gap-4 mt-6">
-            <a href="https://www.facebook.com/AyurevedaPrasadam?modal=admin_todo_tour" target="_blank" rel="noopener noreferrer">
-              <v-icon name="md-facebook" scale="1.5" class="text-sky-800 animate-bounce animate-delay-300 hover:text-sky-600" />
-            </a>
-            <a href="https://twitter.com/_Prasadam_" target="_blank" rel="noopener noreferrer">
-              <v-icon name="co-twitter" scale="1.5" class="text-cyan-600 animate-bounce animate-delay-150 hover:text-sky-400" />
-            </a>
-            <a href="https://www.instagram.com/_prasadam_/?hl=es-la" target="_blank" rel="noopener noreferrer">
-              <v-icon name="co-instagram" scale="1.5" class="text-[#e1306c] animate-bounce animate-delay-500 hover:text-[#fa7ba5]" />
-            </a>
-          </div> 
-          
-        </article>
+     
         </section>
 
       </template>
