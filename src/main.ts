@@ -5,8 +5,8 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import { OhVueIcon, addIcons } from "oh-vue-icons";
-import { FaFlag, RiZhihuFill,FaShieldAlt,RiHotelBedFill,GiCampingTent,GiNightSleep,FaBaby,FaStore,GiBed,FaStreetView,CoBaby,MdFacebook,CoTwitter,CoInstagram } from "oh-vue-icons/icons";
-addIcons(FaFlag, RiZhihuFill,FaShieldAlt,RiHotelBedFill,GiCampingTent,GiNightSleep,FaBaby,FaStore,GiBed,FaStreetView,CoBaby,MdFacebook,CoTwitter,CoInstagram);
+import { FaFlag, RiZhihuFill,FaShieldAlt,RiHotelBedFill,GiCampingTent,GiNightSleep,FaBaby,FaStore,GiBed,FaStreetView,CoBaby,MdFacebook,CoTwitter,CoInstagram,MdLocationonRound,BiTelephoneOutboundFill } from "oh-vue-icons/icons";
+addIcons(FaFlag, RiZhihuFill,FaShieldAlt,RiHotelBedFill,GiCampingTent,GiNightSleep,FaBaby,FaStore,GiBed,FaStreetView,CoBaby,MdFacebook,CoTwitter,CoInstagram,MdLocationonRound,BiTelephoneOutboundFill);
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
