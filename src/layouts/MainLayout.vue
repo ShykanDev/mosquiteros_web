@@ -4,7 +4,7 @@
       class="fixed top-0 left-0 right-0 z-50 flex flex-col items-center justify-between w-full p-4 bg-white shadow-md rounded-bl-md rounded-br-md scroll-smooth min-h-14 sm:flex-row text-slate-800 ">
       <h1 class="mb-2 text-2xl font-semibold font-poppins sm:mb-0 animate-fade-down">Mosquiteros</h1>
 
-      <nav class="flex flex-1 gap-[2px] overflow-auto font-poppins animate-fade-up sm:justify-evenly items-center">
+      <nav class="flex flex-1 gap-[2px] overflow-hidden font-poppins animate-fade-up sm:justify-evenly items-center">
         <RouterLink :class="{'bg-cyan-700 text-white': route.name === 'home'}"  class="px-2 text-lg hover:text-blue-300 rounded-2xl" :to="{name: 'home'}">Inicio</RouterLink>
         <RouterLink :class="{'bg-cyan-700 text-white' : route.name === 'beneficts'}" class="px-2 text-lg hover:text-blue-300 rounded-2xl" :to="{name: 'beneficts'}">Beneficios</RouterLink>
         <RouterLink :class="{'bg-cyan-700 text-white': route.name === 'images'}" class="px-2 text-lg hover:text-blue-300 rounded-2xl" :to="{name: 'images'}">Imágenes</RouterLink>
