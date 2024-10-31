@@ -68,12 +68,16 @@
             <div class="justify-center w-full">
                 <h2 class="text-3xl text-center font-poppins">¿Te has convencido?</h2>
             </div>
-            <div
-                class="px-6 flex justify-center gap-5 items-center self-center w-[60%] py-3 mt-6 font-bold  text-white transition duration-300 bg-[#3c82dd] rounded-full hover:bg-blue-600 cursor-pointer">
-                <p class="font-poppins xl">Ir a la tienda</p>
-                <v-icon name="fa-store" scale="1.5" class="text-white" />
-              </div>
-         </div>
+            <div class="items-center w-full ">
+                <a href="https://listado.mercadolibre.com.mx/_CustId_576364310?item_id=MLM3418418980&category_id=MLM429685&seller_id=576364310&client=recoview-selleritems&recos_listing=true#origin=vip&component=sellerData&typeSeller=classic" target="_blank" rel="noopener noreferrer">
+                    <div
+                    class="px-6 flex justify-center gap-5 items-center self-center w-full py-3 mt-6 font-bold  text-white transition duration-300 bg-[#3c82dd] rounded-full hover:bg-blue-600 cursor-pointer">
+                    <p class="font-poppins xl">Ir a la tienda</p>
+                    <v-icon name="fa-store" scale="1.5" class="text-white" />
+                </div>
+            </a>
+        </div>
+    </div>
     </div>
 </section>
 
