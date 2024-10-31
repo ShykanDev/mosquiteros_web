@@ -351,7 +351,7 @@
   </a>
 </div>
 
-<div class="relative flex items-center justify-center w-1/2 p-4 border-2 rounded-lg shadow-md border-slate-400 bg-slate-100">
+<div class="relative flex items-center justify-center w-1/2 p-4 border-2 rounded-lg shadow-md lg:w-1/3 border-slate-400 bg-slate-100">
   <span class="absolute px-2 py-1 text-sm font-semibold text-white rounded -top-4 left-4 bg-slate-500">Anuncio</span>
   <a href="https://asafoetida.com.mx/" class="relative w-full h-full" target="_blank" rel="noopener noreferrer">
     <div class="absolute flex flex-col items-center w-full h-full transition-opacity duration-300 ease-out bg-black opacity-0 hover:opacity-70 justify-evenly">

@@ -4,23 +4,37 @@
       class="fixed top-0 left-0 right-0 z-50 flex flex-col items-center justify-between w-full p-2 bg-white shadow-md rounded-bl-md rounded-br-md scroll-smooth min-h-9 sm:flex-row ">
       <!-- Header and ham menu -->
       <div class="flex items-center justify-between w-full">
-        <h1 class="mb-2 text-2xl font-semibold font-poppins sm:mb-0 animate-fade-down ">Mosquiteros</h1>
-        <div class="items-center hidden gap-2 md:flex lg:flex">
-            <v-icon name="md-locationon-round" scale="1.5" class="transition-colors text-sky-500 hover:text-gray-500" />
+        <!-- logo and title -->
+        <div class="flex items-center gap-1">
+          <a class="w-12" href="https://www.prasadam.mx" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/img/prasadamLogo.png" alt="">
+          </a>
+          <h1 class="mb-2 text-2xl font-semibold font-poppins sm:mb-0 animate-fade-down ">mosquitero.com.mx</h1>
+        </div>
+        <div class="items-center hidden gap-1 pl-9 md:flex lg:flex animate-fade-down animate-delay-300">
+            <v-icon name="md-locationon-round" scale="1.1" class="text-orange-500 transition-colors hover:text-gray-500" />
             <a href="https://www.google.com.mx/maps/place/Gutenberg+128,+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+M%C3%A9xico,+CDMX/@19.4323958,-99.1783169,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1f8b2df5f9bbd:0x81205745d02f7168!8m2!3d19.4323958!4d-99.1761282"
-              class="text-sm font-medium transition-colors text-cyan-800 hover:text-cyan-700" target="_blank" rel="noopener noreferrer">
+              class="text-sm font-medium text-orange-600 transition-colors lg:text-xs hover:text-orange-300" target="_blank" rel="noopener noreferrer">
               Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
             </a>
           </div>
-          <div class="items-center justify-center hidden gap-2 px-4 md:flex lg:flex">
-            <v-icon name="bi-telephone-outbound-fill" scale="1.5"
+          <div class="items-center justify-center hidden gap-1 px-4 animate-delay-500 md:flex lg:flex animate-fade-down animate">
+            <v-icon name="bi-telephone-outbound-fill" scale="1.3"
               class="transition-colors text-sky-600 hover:text-gray-500" />
-            <a href="tel:+525563950178" class="text-sm font-medium transition-colors text-cyan-800 hover:text-cyan-700">+52 55 6395 0178</a>
-            <a href="tel:+525563950179" class="text-sm font-medium transition-colors text-cyan-800 hover:text-cyan-700">+52 55 6395 0179</a>
-          </div>
-        <button @click="toggleMenu" :class="{ 'is-active': menuOpen, '': !menuOpen }"
-          class="hamburger hamburger--collapse" type="button">
-          <span class="hamburger-box">
+              <a href="tel:+525563950178" class="text-xs font-medium transition-colors text-cyan-600 hover:text-cyan-400">+52 55 6395 0178</a>
+              
+              <a href="tel:+525563950179" class="text-xs font-medium transition-colors text-cyan-600 hover:text-cyan-400">+52 55 6395 0179</a>
+            </div>
+            <div class="items-center hidden gap-2 md:flex lg:flex animate-fade-down animate-delay-700">
+              <v-icon name="la-whatsapp" scale="1.5" class="transition-colors text-emerald-500 hover:text-emerald-400" />
+              <a href="https://wa.me/525562516687"
+              class="text-xs font-medium transition-colors text-emerald-600 hover:text-emerald-300" target="_blank" rel="noopener noreferrer">
+                   +52 55 6395 0178
+                </a>
+              </div>
+            <button @click="toggleMenu" :class="{ 'is-active': menuOpen, '': !menuOpen }"
+            class="hamburger hamburger--collapse" type="button">
+            <span class="hamburger-box">
             <span class="hamburger-inner"></span>
           </span>
         </button>
@@ -29,7 +43,7 @@
     <main class="mt-14">
       <!-- nav extended -->
       <div
-        class="fixed top-0 bottom-0 right-0 left-[20%] md:left-[60%] z-40 flex flex-col items-center pt-24 text-center text-black transition-transform duration-500 transform bg-white shadow-xl font-poppins "
+        class="fixed top-0 bottom-0 right-0 left-[20%] md:left-[60%] md:pt-28 z-40 flex flex-col items-center pt-24 text-center text-black transition-transform duration-500 transform bg-white shadow-xl font-poppins "
         :class="{ 'translate-x-0': menuOpen, 'translate-x-full': !menuOpen }">
         <!-- Close Button -->
         <button @click="menuOpen = false"
@@ -40,39 +54,46 @@
         <!-- Contact Section -->
         <div class="mb-8 space-y-3 md:hidden lg:hidden">
           <h3 class="text-2xl font-semibold">Contáctanos</h3>
-          <div class="flex items-center gap-2">
-            <v-icon name="md-locationon-round" scale="1.5" class="transition-colors text-sky-500 hover:text-gray-500" />
+          <div class="flex items-center gap-2 text-orange-600 animate-fade-left animate-delay-100">
+            <v-icon name="md-locationon-round" scale="1.5" class="text-orange-500 transition-colors " />
             <a href="https://www.google.com.mx/maps/place/Gutenberg+128,+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+M%C3%A9xico,+CDMX/@19.4323958,-99.1783169,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1f8b2df5f9bbd:0x81205745d02f7168!8m2!3d19.4323958!4d-99.1761282"
-              class="text-sm transition-colors hover:text-cyan-700" target="_blank" rel="noopener noreferrer">
+              class="text-sm transition-colors hover:text-orange-300" target="_blank" rel="noopener noreferrer">
               Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
             </a>
           </div>
-          <div class="flex items-center justify-center gap-2 px-4">
+          <div class="flex items-center justify-center gap-2 px-4 animate-fade-left animate-delay-300 text-sky-800">
             <v-icon name="bi-telephone-outbound-fill" scale="1.5"
               class="transition-colors text-sky-600 hover:text-gray-500" />
-            <a href="tel:+525563950178" class="text-sm transition-colors hover:text-cyan-700">+52 55 6395 0178</a>
-            <a href="tel:+525563950179" class="text-sm transition-colors hover:text-cyan-700">+52 55 6395 0179</a>
+            <a href="tel:+525563950178" class="text-sm transition-colors hover:text-cyan-300">+52 55 6395 0178</a>
+            <a href="tel:+525563950179" class="text-sm transition-colors hover:text-cyan-300">+52 55 6395 0179</a>
           </div>
+          <div class="flex items-center justify-center gap-2 animate-fade-left animate-delay-500">
+              <v-icon name="la-whatsapp" scale="1.5" class="transition-colors text-emerald-500 hover:text-emerald-400" />
+              <a href="https://wa.me/525562516687"
+              class="text-sm font-medium transition-colors text-emerald-700 hover:text-emerald-300" target="_blank" rel="noopener noreferrer">
+                   +52 55 6395 0178
+                </a>
+              </div>
         </div>
 
         <!-- Navigation Links -->
         <nav class="space-y-4">
-          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'home', 'hover:bg-cyan-300 text-slate-800 bg-slate-50' : route.name !== 'home'  }"
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'home', 'hover:bg-white hover:border hover:border-sky-700 text-slate-800 bg-slate-50' : route.name !== 'home'  }"
             class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-md rounded-xl "
             :to="{ name: 'home' }">
             Inicio
           </RouterLink>
-          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'aboutUs', 'hover:bg-cyan-300 text-slate-800 bg-slate-50' : route.name !== 'aboutUs'  }"
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'aboutUs', 'hover:bg-white hover:border hover:border-sky-700 text-slate-800 bg-slate-50' : route.name !== 'aboutUs'  }"
             class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-md rounded-xl "
             :to="{ name: 'aboutUs' }">
             Nosotros
           </RouterLink>
-          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'beneficts', 'hover:bg-cyan-300 text-slate-800 bg-slate-50' : route.name !== 'beneficts'  }"
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'beneficts', 'hover:bg-white hover:border hover:border-sky-700 text-slate-800 bg-slate-50' : route.name !== 'beneficts'  }"
             class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-md rounded-xl "
             :to="{ name: 'beneficts' }">
             Beneficios
           </RouterLink>
-          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'images', 'hover:bg-cyan-300 text-slate-800 bg-slate-50' : route.name !== 'images'  }"
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'images', 'hover:bg-white hover:border hover:border-sky-700 text-slate-800 bg-slate-50' : route.name !== 'images'  }"
             class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-md rounded-xl "
             :to="{ name: 'images' }">
             Imágenes
@@ -102,25 +123,25 @@
           <div class="flex items-center gap-2">
             <v-icon name="md-locationon-round" scale="1.5" class="transition-colors text-sky-500 hover:text-gray-500" />
             <a href="https://www.google.com.mx/maps/place/Gutenberg+128,+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+M%C3%A9xico,+CDMX/@19.4323958,-99.1783169,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1f8b2df5f9bbd:0x81205745d02f7168!8m2!3d19.4323958!4d-99.1761282"
-              class="text-sm transition-colors hover:text-cyan-700 font-poppins" target="_blank" rel="noopener noreferrer">
-              Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
-            </a>
-          </div>
-          <div class="flex items-center justify-center gap-2 px-4 font-poppins" >
-            <v-icon name="fa-phone-alt" scale="1.5"
-              class="transition-colors text-sky-600 hover:text-gray-500" animation="ring"  />
-            <a href="tel:+525563950178" class="text-sm transition-colors hover:text-cyan-700">+52 55 6395 0178</a>
+            class="text-sm transition-colors hover:text-cyan-700 font-poppins" target="_blank" rel="noopener noreferrer">
+            Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
+          </a>
+        </div>
+        <div class="flex items-center justify-center gap-2 px-4 font-poppins" >
+          <v-icon name="fa-phone-alt" scale="1.5"
+          class="transition-colors text-sky-600 hover:text-gray-500" animation="ring"  />
+          <a href="tel:+525563950178" class="text-sm transition-colors hover:text-cyan-700">+52 55 6395 0178</a>
             <a href="tel:+525563950179" class="text-sm transition-colors hover:text-cyan-700">+52 55 6395 0179</a>
           </div>
           <div class="flex items-center justify-center gap-2 px-4 font-poppins" >
             <v-icon name="hi-mail" scale="1.5"
               class="transition-colors text-sky-600 hover:text-gray-500"  
                />
-            <a href="mailto:informes@prasadam.mx" class="text-sm transition-colors hover:text-cyan-700">informes@prasadam.mx</a>
-          </div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5395970522604!2d-99.1760704!3d19.4322888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8b32758939b%3A0xf34fbd07bc47d6dd!2sGutenberg%20128%2C%20Anzures%2C%20Miguel%20Hidalgo%2C%2011590%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1730328617197!5m2!1sen!2smx"  style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-[100dvw] h-[35dvh]"</iframe>
-        </div>
-      <div>
+               <a href="mailto:informes@prasadam.mx" class="text-sm transition-colors hover:text-cyan-700">informes@prasadam.mx</a>
+              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5395970522604!2d-99.1760704!3d19.4322888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8b32758939b%3A0xf34fbd07bc47d6dd!2sGutenberg%20128%2C%20Anzures%2C%20Miguel%20Hidalgo%2C%2011590%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1730328617197!5m2!1sen!2smx"  style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-[100dvw] h-[35dvh]"</iframe>
+              </div>
+              <div>
         <article class="flex flex-col items-center mt-10">
           <h3 class="text-2xl font-poppins text-slate-700">Siguenos en nuestras redes</h3>
           <div class="flex justify-center gap-4 mt-6">
@@ -145,7 +166,7 @@
     </main>
   </div>
   <footer class="py-6 text-center text-gray-800 bg-slate-200">
-    <p class="text-sm font-light tracking-wide font-poppins">mosquiteros.com 2024 &copy; Todos los derechos
+    <p class="text-sm font-light tracking-wide font-poppins">mosquitero.com.mx 2024 &copy; Todos los derechos
       reservados</p>
     <p class="text-xs font-light tracking-wide font-poppins">Diseño: PACA</p>
   </footer>
