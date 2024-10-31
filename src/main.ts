@@ -5,8 +5,8 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import { OhVueIcon, addIcons } from "oh-vue-icons";
-import { FaFlag, RiZhihuFill,FaShieldAlt,RiHotelBedFill,GiCampingTent,GiNightSleep,FaBaby,FaStore,GiBed,FaStreetView,CoBaby,MdFacebook,CoTwitter,CoInstagram,MdLocationonRound,BiTelephoneOutboundFill,FaPhoneAlt,HiMail } from "oh-vue-icons/icons";
-addIcons(FaFlag, RiZhihuFill,FaShieldAlt,RiHotelBedFill,GiCampingTent,GiNightSleep,FaBaby,FaStore,GiBed,FaStreetView,CoBaby,MdFacebook,CoTwitter,CoInstagram,MdLocationonRound,BiTelephoneOutboundFill,FaPhoneAlt,HiMail);
+import { FaFlag, RiZhihuFill,FaShieldAlt,RiHotelBedFill,GiIndianPalace,GiCampingTent,GiNightSleep,FaBaby,FaStore,GiBed,FaStreetView,CoBaby,MdFacebook,CoTwitter,CoInstagram,MdLocationonRound,BiTelephoneOutboundFill,FaPhoneAlt,HiMail,MdEcoRound, RiMentalHealthFill, RiCustomerService2Fill, FaBuilding,MdPersonpincircleRound,RiPlantFill, GiPoisonBottle,GiMedicinePills,GiPlantRoots,FaTruckLoading,BiShieldLockFill,GiEarthAfricaEurope,GiHealthNormal,IoMedkit,FaBoxes } from "oh-vue-icons/icons";
+addIcons(FaFlag, RiZhihuFill,FaShieldAlt,RiHotelBedFill,GiIndianPalace,GiCampingTent,GiNightSleep,FaBaby,FaStore,GiBed,FaStreetView,CoBaby,MdFacebook,CoTwitter,CoInstagram,MdLocationonRound,BiTelephoneOutboundFill,FaPhoneAlt,HiMail,MdEcoRound, RiMentalHealthFill, RiCustomerService2Fill, FaBuilding,MdPersonpincircleRound,RiPlantFill, GiPoisonBottle,GiMedicinePills,GiPlantRoots,FaTruckLoading,BiShieldLockFill,GiEarthAfricaEurope,GiHealthNormal,IoMedkit,FaBoxes);
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 

@@ -21,9 +21,7 @@
         <div class="flex justify-center w-full my-5">
             <img class="rounded-2xl lg:w-[45%]" src="../assets/img/prohibidoMosquito.jpg" alt="">
         </div>
-        <p>
-            Un mosquitero actúa como una barrera física que impide la entrada de insectos voladores, como mosquitos y otros bichos. Esto no solo protege tu piel de picaduras incómodas, sino que también reduce el riesgo de enfermedades transmitidas por insectos. Al crear un ambiente libre de plagas, podrás relajarte y disfrutar de un sueño reparador, sin las molestias que generan los zumbidos nocturnos.
-        </p>
+        <p> Un mosquitero es una herramienta esencial para asegurar una protección eficaz contra insectos voladores y plagas, creando un entorno seguro y libre de molestias. Al actuar como una barrera física, impide el acceso de mosquitos y otros insectos, lo cual no solo evita picaduras incómodas, sino que reduce la posibilidad de enfermedades transmitidas por insectos. Así, un mosquitero permite disfrutar de un sueño reparador y un ambiente relajado, sin interrupciones ni zumbidos nocturnos. </p> <ul class="pl-6 list-none">  <li><strong>Ambiente más seguro:</strong> Bloquea el ingreso de insectos voladores, creando un espacio más saludable y seguro para todos.</li> <li><strong>Mejor calidad de sueño:</strong> Permite descansar sin molestias, eliminando los zumbidos nocturnos y picaduras.</li> <li><strong>Solución natural y efectiva:</strong> Reduce la necesidad de productos químicos, promoviendo una protección ecológica.</li> <li><strong>Ideal para todas las edades:</strong> Su uso es adecuado tanto para adultos como para niños y bebés, asegurando un sueño tranquilo para toda la familia.</li> </ul>
     </div>
 
     <div data-aos="fade-up" class="p-6 mt-4 bg-white rounded-lg shadow-sm">
@@ -36,9 +34,7 @@
                 <img class="rounded-2xl lg:w-[45%]" src="../assets/img/instalacionFacil.jpg" alt="">
             </div>
         </div>
-        <p>
-            La mayoría de los mosquiteros están diseñados para ser fáciles de instalar y quitar. Con sistemas de sujeción simples, puedes colocarlos en minutos, sin necesidad de herramientas o complicaciones. Esto significa que puedes disfrutar de la protección en casa o llevar el mosquitero contigo cuando viajes, asegurándote de que siempre tendrás un refugio seguro y cómodo, sin importar dónde te encuentres.
-        </p>
+        <p> Los mosquiteros están diseñados para ser instalados y removidos con gran facilidad, permitiendo una protección rápida y sin complicaciones. Con sistemas de sujeción prácticos y amigables, la instalación se puede realizar en minutos, sin herramientas adicionales ni pasos complejos. Esto garantiza una protección confiable tanto en el hogar como durante tus viajes, para que puedas disfrutar de un espacio seguro en cualquier lugar. </p> <ul class="pl-6 list-none"> <li><strong>Montaje rápido:</strong> Diseñado para que puedas instalarlo en pocos minutos sin complicaciones.</li> <li><strong>No requiere herramientas:</strong> La mayoría de los modelos se colocan sin necesidad de destornilladores, clavos u otros equipos.</li> <li><strong>Portabilidad:</strong> Su diseño permite que puedas llevarlo contigo a cualquier lugar para mantener la protección en movimiento.</li> <li><strong>Versatilidad de espacios:</strong> Ideal para instalar en camas, puertas o ventanas según tus necesidades.</li> <li><strong>Desmontaje sencillo:</strong> Al ser fácil de quitar, puedes almacenarlo sin problemas cuando no lo necesites.</li> </ul>
 
     </div>
 
@@ -52,9 +48,7 @@
                 <img class="rounded-2xl lg:w-[45%]" src="../assets/img/versatilidad.jpg" alt="">
             </div>
         </div>
-        <p>
-            Los mosquiteros son increíblemente versátiles y se adaptan a diferentes estilos de vida. Ya sea que estés en casa, de camping, o en una cabaña, un mosquitero se puede usar en cualquier lugar. Además, vienen en diversas formas y tamaños, lo que te permite elegir el que mejor se ajuste a tus necesidades. Esto asegura que siempre tendrás una solución efectiva para disfrutar de un descanso libre de insectos.
-        </p>
+        <p> Nuestros mosquiteros destacan por su gran versatilidad, adaptándose a distintos entornos y estilos de vida. Tanto en el hogar, como en aventuras al aire libre o en cabañas, un mosquitero se convierte en una solución adaptable para cualquier espacio. Con una amplia variedad de tamaños y diseños, siempre hay un modelo ideal para cada necesidad, asegurando una protección efectiva y personalizada que permite descansar sin interrupciones de insectos. </p> <ul class="pl-6 list-none"> <li><strong>Uso en múltiples entornos:</strong> Perfecto para el hogar, acampadas o estancias en espacios abiertos.</li> <li><strong>Diversos tamaños y formas:</strong> Disponibles en modelos que se ajustan a camas, cunas, ventanas y más.</li> <li><strong>Adaptabilidad al clima:</strong> Su material permite flujo de aire mientras mantiene a los insectos alejados.</li> <li><strong>Solución práctica y ligera:</strong> Fácil de transportar, ideal para llevar a donde necesites protección extra.</li> <li><strong>Opciones personalizables:</strong> Variedad de diseños que se adaptan a tus gustos y necesidades.</li> </ul>
     </div>
 
     <div data-aos="fade-up" class="p-6 mt-4 bg-white rounded-lg shadow-sm">
@@ -67,9 +61,19 @@
                 <img class="rounded-2xl lg:w-[45%]" src="../assets/img/dormirBien.jpg" alt="">
             </div>
         </div>
-        <p>
-            Al eliminar las distracciones causadas por los insectos, un mosquitero contribuye a un entorno de sueño más tranquilo. Esto puede resultar en un descanso más profundo y reparador, lo cual es esencial para mantener altos niveles de energía y concentración durante el día. Un buen sueño no solo mejora tu bienestar físico, sino que también favorece tu salud mental, permitiéndote afrontar cada día con más vitalidad y positividad.
-        </p>
+        <p> Al mantener los insectos a raya, un mosquitero crea un entorno de descanso más relajado y libre de interrupciones. Esto permite un sueño profundo y continuo, crucial para la recuperación física y mental. Con un descanso adecuado, es más fácil mantener una energía óptima y una mayor concentración durante el día, favoreciendo tanto el bienestar físico como el emocional, y permitiéndote despertar cada mañana con una mayor vitalidad y una actitud positiva. </p> <ul class="pl-6 list-none"> <li><strong>Sueño ininterrumpido:</strong> Elimina las distracciones causadas por insectos, favoreciendo un descanso continuo.</li> <li><strong>Recuperación física:</strong> Facilita un sueño profundo que contribuye a la regeneración muscular y celular.</li> <li><strong>Beneficios para la salud mental:</strong> Ayuda a reducir el estrés y mejorar el estado de ánimo con un descanso adecuado.</li> <li><strong>Mejora la energía y concentración:</strong> Un sueño reparador asegura un rendimiento mental y físico óptimo durante el día.</li> <li><strong>Mayor sensación de bienestar:</strong> Al reducir las molestias nocturnas, favorece un ambiente de paz y tranquilidad.</li> </ul>
+        
+        <!-- store button -->
+         <div class="flex flex-col items-center justify-center w-full mt-5">
+            <div class="justify-center w-full">
+                <h2 class="text-3xl text-center font-poppins">¿Te has convencido?</h2>
+            </div>
+            <div
+                class="px-6 flex justify-center gap-5 items-center self-center w-[60%] py-3 mt-6 font-bold  text-white transition duration-300 bg-[#3c82dd] rounded-full hover:bg-blue-600 cursor-pointer">
+                <p class="font-poppins xl">Ir a la tienda</p>
+                <v-icon name="fa-store" scale="1.5" class="text-white" />
+              </div>
+         </div>
     </div>
 </section>
 

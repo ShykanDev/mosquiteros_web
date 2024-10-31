@@ -191,9 +191,6 @@
   <strong>$2,000.00 MXN</strong>! No dejes pasar esta oportunidad de proteger a tus seres queridos con estilo y confort.
   <span class="font-bold text-sky-600">Haz tu pedido hoy</span> y transforma tu hogar.
 </p>
-
-
-
         </section>
 
         <!-- section all products available -->
@@ -218,9 +215,7 @@
             opciones
             ideales para cualquier necesidad. Desde un mosquitero para piso hasta uno especialmente diseñado para cama,
             cada uno
-            ofrece protección según el entorno en el que lo necesites. A continuación, te contamos cuándo es más
-            conveniente
-            cada opción.
+            ofrece protección según el entorno en el que lo necesites.
           </p>
           <!-- <h3 class="mt-6 text-3xl font-bold text-center text-orange-800 font-poppins">Mosquitero para Piso</h3>
 <div class="flex justify-center my-2">
@@ -341,25 +336,35 @@
         </section>
         <h3 class="mt-6 text-2xl font-bold text-center text-sky-900 font-poppins">Te puede interesar...</h3>
         <section class="flex justify-center w-full my-6 space-x-4"> <!-- ads section -->
+          <div class="relative flex items-center justify-center w-1/2 p-4 border-2 rounded-lg shadow-md border-slate-400 bg-slate-100">
+  <span class="absolute px-2 py-1 text-sm font-semibold text-white rounded -top-4 left-4 bg-slate-500">Anuncio</span>
+  <a href="https://pastaneem.com/" class="relative w-full h-full" target="_blank" rel="noopener noreferrer">
+    <div class="absolute flex flex-col items-center w-full h-full transition-opacity duration-300 ease-out bg-black opacity-0 hover:opacity-70 justify-evenly">
+      <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl" >REMUEVE LA PLACA DENTAL</p>
+      <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl" >AYUDA CONTRA LA GENGIVITIS</p>
+      <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl" >AYUDA CONTRA EL MAL ALIENTO</p>
+    </div>
 
-          <div
-            class="container relative flex items-center justify-center w-1/2 overflow-hidden rounded-lg shadow-md min-h-32 bg-slate-100">
-            <a href="https://pastaneem.com/" class="w-full h-full p-0 m-0" target="_blank" rel="noopener noreferrer">
-              <img class="w-full h-full transition-transform duration-500 ease-in-out bg-contain hover:scale-110"
-              src="@/assets/img/pastaNeem0.png" alt="">
-              <p class="absolute top-0 text-lg font-bold text-center text-white font-poppins md:text-3xl">Pasta 100% Natural</p>
-              <p class="absolute bottom-0 text-lg font-bold text-center text-white font-poppins md:text-3xl">Libre de químicos</p>
-            </a>
-          </div>
-          <div
-            class="container relative flex items-center justify-center w-1/2 overflow-hidden rounded-lg shadow-md min-h-32 bg-slate-100">
-            <a href="https://asafoetida.com.mx/" class="w-full h-full p-0 m-0" target="_blank" rel="noopener noreferrer">
-              <img class="w-full h-full transition-transform duration-500 ease-in-out bg-contain hover:scale-110"
-              src="@/assets/img/asafoetida.png" alt="">
-              <p class="absolute top-0 text-lg font-bold text-center text-white font-poppins md:text-3xl">Suplimento 100% Natural</p>
-              <p class="absolute bottom-0 text-lg font-bold text-center text-white font-poppins md:text-3xl">Relajante natural</p>
-            </a>
-          </div>
+    <img class="w-full h-full bg-contain rounded-md" src="@/assets/img/pastaNeem0.png" alt="">
+    <p class="absolute text-xs font-bold text-center text-white top-1 font-poppins md:text-3xl">Pasta 100% Natural</p>
+    <p class="absolute text-xs font-bold text-center text-white bottom-1 font-poppins md:text-3xl">Libre de químicos</p>
+  </a>
+</div>
+
+<div class="relative flex items-center justify-center w-1/2 p-4 border-2 rounded-lg shadow-md border-slate-400 bg-slate-100">
+  <span class="absolute px-2 py-1 text-sm font-semibold text-white rounded -top-4 left-4 bg-slate-500">Anuncio</span>
+  <a href="https://asafoetida.com.mx/" class="relative w-full h-full" target="_blank" rel="noopener noreferrer">
+    <div class="absolute flex flex-col items-center w-full h-full transition-opacity duration-300 ease-out bg-black opacity-0 hover:opacity-70 justify-evenly">
+      <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl" >Dolores de cabeza</p>
+      <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl" >Cuidado respiratorio</p>
+      <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl" >Previene el cáncer</p>
+    </div>
+    <img class="w-full h-full bg-contain rounded-md " src="@/assets/img/asafoetida.png" alt="">
+    <p class="absolute top-0 text-xs font-bold text-center text-white font-poppins md:text-3xl">Suplemento  Natural</p>
+    <p class="absolute px-3 text-xs font-bold text-center text-white md:px-0 bottom-3 font-poppins md:text-3xl">Relajante natural</p>
+  </a>
+</div>
+
 
           
         </section>
