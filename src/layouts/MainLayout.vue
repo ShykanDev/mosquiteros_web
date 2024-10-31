@@ -57,22 +57,22 @@
 
         <!-- Navigation Links -->
         <nav class="space-y-4">
-          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'home', 'hover:bg-cyan-300 text-slate-600 bg-slate-50' : route.name !== 'home'  }"
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'home', 'hover:bg-cyan-300 text-slate-800 bg-slate-50' : route.name !== 'home'  }"
             class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-md rounded-xl "
             :to="{ name: 'home' }">
             Inicio
           </RouterLink>
-          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'aboutUs', 'hover:bg-cyan-300 text-slate-600 bg-slate-50' : route.name !== 'aboutUs'  }"
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'aboutUs', 'hover:bg-cyan-300 text-slate-800 bg-slate-50' : route.name !== 'aboutUs'  }"
             class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-md rounded-xl "
             :to="{ name: 'aboutUs' }">
             Nosotros
           </RouterLink>
-          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'beneficts', 'hover:bg-cyan-300 text-slate-600 bg-slate-50' : route.name !== 'beneficts'  }"
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'beneficts', 'hover:bg-cyan-300 text-slate-800 bg-slate-50' : route.name !== 'beneficts'  }"
             class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-md rounded-xl "
             :to="{ name: 'beneficts' }">
             Beneficios
           </RouterLink>
-          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'images', 'hover:bg-cyan-300 text-slate-600 bg-slate-50' : route.name !== 'images'  }"
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'images', 'hover:bg-cyan-300 text-slate-800 bg-slate-50' : route.name !== 'images'  }"
             class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-md rounded-xl "
             :to="{ name: 'images' }">
             Imágenes
