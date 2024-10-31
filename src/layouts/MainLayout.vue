@@ -29,7 +29,7 @@
               <v-icon name="la-whatsapp" scale="1.5" class="transition-colors text-emerald-500 hover:text-emerald-400" />
               <a href="https://wa.me/525562516687"
               class="text-xs font-medium transition-colors text-emerald-600 hover:text-emerald-300" target="_blank" rel="noopener noreferrer">
-                   +52 525562516687
+                   +52 5562516687
                 </a>
               </div>
             <button @click="toggleMenu" :class="{ 'is-active': menuOpen, '': !menuOpen }"
