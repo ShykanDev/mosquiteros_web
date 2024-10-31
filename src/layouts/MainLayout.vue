@@ -58,22 +58,22 @@
         <!-- Navigation Links -->
         <nav class="space-y-4">
           <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'home', 'hover:bg-slate-300' : route.name !== 'home'  }"
-            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors border rounded-full shadow-md text-slate-800 border-sky-950 "
+            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-sm rounded-xl text-slate-800 "
             :to="{ name: 'home' }">
             Inicio
           </RouterLink>
           <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'aboutUs', 'hover:bg-slate-300' : route.name !== 'aboutUs'  }"
-            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors border rounded-full shadow-md text-slate-800 border-sky-950 "
+            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-sm rounded-xl text-slate-800 "
             :to="{ name: 'aboutUs' }">
             Nosotros
           </RouterLink>
           <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'beneficts', 'hover:bg-slate-300' : route.name !== 'beneficts'  }"
-            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors border rounded-full shadow-md text-slate-800 border-sky-950 "
+            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-sm rounded-xl text-slate-800 "
             :to="{ name: 'beneficts' }">
             Beneficios
           </RouterLink>
           <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'images', 'hover:bg-slate-300' : route.name !== 'images'  }"
-            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors border rounded-full shadow-md text-slate-800 border-sky-950 "
+            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-sm rounded-xl text-slate-800 "
             :to="{ name: 'images' }">
             Imágenes
           </RouterLink>
