@@ -137,7 +137,14 @@
             <v-icon name="hi-mail" scale="1.5"
               class="transition-colors text-sky-600 hover:text-gray-500"  
                />
-               <a href="mailto:informes@prasadam.mx" class="text-sm transition-colors hover:text-cyan-700">informes@prasadam.mx</a>
+               <a href="mailto:informes@prasadam.mx" class="text-sm transition-colors hover:text-cyan-700 font-poppins">informes@prasadam.mx</a>
+              </div>
+              <div class="flex items-center justify-center gap-2">
+              <v-icon name="la-whatsapp" scale="1.5" class="transition-colors text-emerald-500 hover:text-emerald-400" />
+              <a href="https://wa.me/525562516687"
+              class="text-sm font-medium transition-colors font-poppins text-emerald-700 hover:text-emerald-300" target="_blank" rel="noopener noreferrer">
+                   +52 55 6395 0178
+                </a>
               </div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5395970522604!2d-99.1760704!3d19.4322888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8b32758939b%3A0xf34fbd07bc47d6dd!2sGutenberg%20128%2C%20Anzures%2C%20Miguel%20Hidalgo%2C%2011590%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1730328617197!5m2!1sen!2smx"  style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-[100dvw] h-[35dvh]"</iframe>
               </div>
