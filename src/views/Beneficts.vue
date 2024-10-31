@@ -2,8 +2,8 @@
     <div class="">
         <MainLayout>
             <template #main>
-                <section class="flex flex-col items-center w-full px-5 mt-12 sm:mt-9 md:my-5 lg:my-5 font-poppins">
-                    <div class="flex items-center justify-center w-full bg-white animate-jump-in">
+                <section class="flex flex-col items-center w-full px-5 mt-12 sm:mt-9 md:my-5 lg:my-6 font-poppins">
+                    <div class="flex items-center justify-center w-full bg-white shadow-sm animate-jump-in rounded-3xl">
                         <h2 class="py-4 text-4xl font-medium text-center bg-white rounded-md text-slate-600 ">
                             Beneficios
                         </h2>

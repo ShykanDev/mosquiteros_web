@@ -2,9 +2,9 @@
     <div class="">
         <MainLayout>
             <template #main>
-                <section class="flex flex-col items-center w-full px-5 mt-12 sm:mt-9 md:mt-5 lg:mt-5 font-poppins">
-                    <div class="flex items-center justify-center w-full bg-white animate-jump-in">
-                        <h2 class="py-4 text-4xl font-medium text-center bg-white rounded-md text-slate-600 ">
+                <section class="flex flex-col items-center w-full px-5 mt-12 sm:mt-9 md:mt-5 lg:mt-6 font-poppins">
+                    <div class="flex items-center justify-center w-full bg-white shadow-sm animate-jump-in rounded-3xl">
+                        <h2 class="py-4 text-4xl font-medium text-center bg-white rounded-3xl text-slate-600 ">
                             Galería de Imágenes
                         </h2>
                     </div>

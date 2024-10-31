@@ -8,15 +8,15 @@
         <div class="items-center hidden gap-2 md:flex lg:flex">
             <v-icon name="md-locationon-round" scale="1.5" class="transition-colors text-sky-500 hover:text-gray-500" />
             <a href="https://www.google.com.mx/maps/place/Gutenberg+128,+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+M%C3%A9xico,+CDMX/@19.4323958,-99.1783169,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1f8b2df5f9bbd:0x81205745d02f7168!8m2!3d19.4323958!4d-99.1761282"
-              class="text-sm transition-colors hover:text-cyan-700" target="_blank" rel="noopener noreferrer">
+              class="text-sm font-medium transition-colors text-cyan-800 hover:text-cyan-700" target="_blank" rel="noopener noreferrer">
               Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
             </a>
           </div>
           <div class="items-center justify-center hidden gap-2 px-4 md:flex lg:flex">
             <v-icon name="bi-telephone-outbound-fill" scale="1.5"
               class="transition-colors text-sky-600 hover:text-gray-500" />
-            <a href="tel:+525563950178" class="text-sm transition-colors hover:text-cyan-700">+52 55 6395 0178</a>
-            <a href="tel:+525563950179" class="text-sm transition-colors hover:text-cyan-700">+52 55 6395 0179</a>
+            <a href="tel:+525563950178" class="text-sm font-medium transition-colors text-cyan-800 hover:text-cyan-700">+52 55 6395 0178</a>
+            <a href="tel:+525563950179" class="text-sm font-medium transition-colors text-cyan-800 hover:text-cyan-700">+52 55 6395 0179</a>
           </div>
         <button @click="toggleMenu" :class="{ 'is-active': menuOpen, '': !menuOpen }"
           class="hamburger hamburger--collapse" type="button">
@@ -57,23 +57,23 @@
 
         <!-- Navigation Links -->
         <nav class="space-y-4">
-          <RouterLink :class="{ 'bg-cyan-700 text-white': route.name === 'home' }"
-            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors rounded-full shadow-md text-slate-800 "
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'home', 'hover:bg-slate-300' : route.name !== 'home'  }"
+            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors border rounded-full shadow-md text-slate-800 border-sky-950 "
             :to="{ name: 'home' }">
             Inicio
           </RouterLink>
-          <RouterLink :class="{ 'bg-cyan-700 text-white': route.name === 'aboutUs' }"
-            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors rounded-full shadow-md text-slate-800 "
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'aboutUs', 'hover:bg-slate-300' : route.name !== 'aboutUs'  }"
+            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors border rounded-full shadow-md text-slate-800 border-sky-950 "
             :to="{ name: 'aboutUs' }">
             Nosotros
           </RouterLink>
-          <RouterLink :class="{ 'bg-cyan-700 text-white': route.name === 'beneficts' }"
-            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors rounded-full shadow-md text-slate-800 "
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'beneficts', 'hover:bg-slate-300' : route.name !== 'beneficts'  }"
+            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors border rounded-full shadow-md text-slate-800 border-sky-950 "
             :to="{ name: 'beneficts' }">
             Beneficios
           </RouterLink>
-          <RouterLink :class="{ 'bg-cyan-700 text-white': route.name === 'images' }"
-            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors rounded-full shadow-md text-slate-800 "
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'images', 'hover:bg-slate-300' : route.name !== 'images'  }"
+            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors border rounded-full shadow-md text-slate-800 border-sky-950 "
             :to="{ name: 'images' }">
             Imágenes
           </RouterLink>
