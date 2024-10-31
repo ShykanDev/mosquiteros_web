@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col flex-grow w-full min-h-screen overflow-hidden scroll-smooth">
     <header data-aos="fade-down-left"
-      class="fixed top-0 left-0 right-0 z-50 flex flex-col items-center justify-between w-full p-2 bg-white shadow-md rounded-bl-md rounded-br-md scroll-smooth min-h-9 sm:flex-row text-slate-800 ">
+      class="fixed top-0 left-0 right-0 z-50 flex flex-col items-center justify-between w-full p-2 bg-white shadow-md rounded-bl-md rounded-br-md scroll-smooth min-h-9 sm:flex-row ">
       <!-- Header and ham menu -->
       <div class="flex items-center justify-between w-full">
         <h1 class="mb-2 text-2xl font-semibold font-poppins sm:mb-0 animate-fade-down ">Mosquiteros</h1>
@@ -57,23 +57,23 @@
 
         <!-- Navigation Links -->
         <nav class="space-y-4">
-          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'home', 'hover:bg-slate-300' : route.name !== 'home'  }"
-            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-sm rounded-xl text-slate-800 "
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'home', 'hover:bg-cyan-300 text-slate-600 bg-slate-50' : route.name !== 'home'  }"
+            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-md rounded-xl "
             :to="{ name: 'home' }">
             Inicio
           </RouterLink>
-          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'aboutUs', 'hover:bg-slate-300' : route.name !== 'aboutUs'  }"
-            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-sm rounded-xl text-slate-800 "
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'aboutUs', 'hover:bg-cyan-300 text-slate-600 bg-slate-50' : route.name !== 'aboutUs'  }"
+            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-md rounded-xl "
             :to="{ name: 'aboutUs' }">
             Nosotros
           </RouterLink>
-          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'beneficts', 'hover:bg-slate-300' : route.name !== 'beneficts'  }"
-            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-sm rounded-xl text-slate-800 "
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'beneficts', 'hover:bg-cyan-300 text-slate-600 bg-slate-50' : route.name !== 'beneficts'  }"
+            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-md rounded-xl "
             :to="{ name: 'beneficts' }">
             Beneficios
           </RouterLink>
-          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'images', 'hover:bg-slate-300' : route.name !== 'images'  }"
-            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-sm rounded-xl text-slate-800 "
+          <RouterLink :class="{ 'bg-cyan-700 text-white border-none': route.name === 'images', 'hover:bg-cyan-300 text-slate-600 bg-slate-50' : route.name !== 'images'  }"
+            class="flex items-center justify-center w-48 py-2 text-lg font-medium transition-colors shadow-md rounded-xl "
             :to="{ name: 'images' }">
             Imágenes
           </RouterLink>
