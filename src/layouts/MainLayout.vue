@@ -9,7 +9,9 @@
           <a class="w-12" href="https://www.prasadam.mx" target="_blank" rel="noopener noreferrer">
             <img src="../assets/img/prasadamLogo.png" alt="">
           </a>
-          <h1 class="mb-2 text-2xl font-semibold font-poppins sm:mb-0 animate-fade-down ">mosquitero.com.mx</h1>
+          <RouterLink class="text-2xl font-semibold font-poppins sm:text-3xl" :to="{ name: 'home' }">
+            <h1 class="mb-2 text-2xl font-semibold font-poppins sm:mb-0 animate-fade-down ">mosquitero.com.mx</h1>
+          </RouterLink>            
         </div>
         <div class="items-center hidden gap-1 pl-9 md:flex lg:flex animate-fade-down animate-delay-300">
             <v-icon name="md-locationon-round" scale="1.1" class="text-orange-500 transition-colors hover:text-gray-500" />
